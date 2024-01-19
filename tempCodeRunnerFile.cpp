@@ -21,12 +21,4 @@ int main(){
     int n ;
      cin>>n;
     
-    vector<int> arr(n)
-    int ans= (sizeof(arr)/sizeof(int));
-    cout<<ans;
-    
-
-    arr.push_back (5);
-   arr.push_back (7);
-
-}
+    vector<int> arr(n);
